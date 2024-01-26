@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div className={styles.banner}>
             <div className={styles.apresentacao}>
-                <h1 className={styles.titulo}>Olá Mundo</h1>
+                <h1 className={styles.titulo}>Olá, mundo!</h1>
                 <p className={styles.paragrafo}>Formado em Análise e Desenvolvimento de Sistemas, atuo como desenvolvedor back-end, com foco principal na automação de processos de entrega de software. Possuo experiência prática em desenvolvimento de API's REST com Python e Flask, bem como em serviços de Cloud AWS, como Lambda, DynamoDB, API Gateway, RDS e SES, além de conhecimentos em Git, GitFlow, Serverless, Scrum e elaboração de documentação técnica.</p>
             </div>
             <div className={styles.imagens}>

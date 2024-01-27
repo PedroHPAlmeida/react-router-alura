@@ -8,6 +8,10 @@ const Post = () => {
     const params = useParams();
     const post = posts.find(p => p.id === Number(params.id));
 
+    if (!post) {
+        return <h1>Post não encontrado...</h1>
+    }
+
     return (
         <PostModelo
             fotoCapa={`/assets/posts/${post.id}/capa.png`}
